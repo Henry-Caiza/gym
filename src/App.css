@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stroke-text {
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.hero-text {
+    text-overflow: inherit;
+}
+
+.btn {
+
+    padding: .5rem;
+    font-weight: bold;
+    /* border: 4px solid transparent; */
+    transition: 300ms all;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.category>:nth-child(1) {
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+}
+
+.plans>:nth-child(2) {
+    background: linear-gradient(210.41deg, #ef4444 1.14%, #fb923c 100.75%);
+    transform: scale(1.1);
+}
+
+.plans>:nth-child(2)>svg {
+    fill: white;
+}
+
+.plans>:nth-child(2)>button {
+    color: #fb923c;
+}
+
+.plan>svg {
+    fill: #fb923c;
+    width: 2rem;
+    height: 2rem;
+}
+
+.blur {
+    background: #fb923cc3;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    z-index: -9;
+}
+
+@media screen and (max-width: 640px) {
+    .plans>:nth-child(2) {
+        margin-left: 6px;
+        transform: scale(1.0);
+    }
+
+    .plans>:nth-child(3) {
+
+        transform: scale(.95);
+    }
+}
