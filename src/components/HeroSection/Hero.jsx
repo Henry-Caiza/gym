@@ -41,7 +41,7 @@ function Hero() {
                         </span>
                     </div>
                 </div>
-                <div className="flex gap-8">
+                <div className="flex max-sm:gap-4 gap-8">
                     <div className="flex flex-col">
                         <span className="text-white text-4xl max-sm:text-lg">
                             <NumberCounter end={140} start={100} delay='4' preFix='+' />
@@ -89,7 +89,7 @@ function Hero() {
                 </motion.div>
 
                 <img src={hero_image} alt="" className="absolute top-40 right-36 w-[23rem] 
-                max-sm:relative max-sm:w-60 max-sm:left-28 max-sm:top-16 max-sm:self-center" />
+                max-sm:relative max-sm:w-[13rem] max-sm:left-28 max-sm:top-16 max-sm:self-center" />
                 <motion.img
                     initial={{ right: '11rem' }}
                     whileInView={{ right: '20rem' }}

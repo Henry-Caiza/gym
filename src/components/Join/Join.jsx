@@ -27,7 +27,7 @@ function Join() {
                     <span className='stroke-text'> CON NOSOTROS?</span>
                 </div>
             </div>
-            <div className='flex justify-center items-end max-sm:p-8'>
+            <div className='flex justify-center items-end max-sm:py-8 max-sm:w-10/12 max-sm:self-center'>
                 <form ref={form} onSubmit={sendEmail} className='flex gap-12 bg-slate-600 py-4 px-8
                 max-sm:py-4 max-sm:px-6'>
                     <input type="email" name='user_email' placeholder='Ingresa tu correo' className='bg-transparent border-none outline-none text-gray-300 placeholder:text-gray-400' />
