@@ -12,14 +12,14 @@ function Header() {
             <img src={Logo} alt="" className='w-40 h-12' />
             {(menuOpen === false && mobile === true) ? (
                 <div
-                    className='bg-gray-900 p-[.5rem] rounded-md max-sm:fixed max-sm:right-8 max-sm:z-50'
+                    className='bg-gray-900 border border-white/90 p-[.5rem] rounded-md max-sm:fixed max-sm:right-8 max-sm:z-50'
                     onClick={() => setMenuOpen(true)}>
                     <img src={Bars} alt="" className='w-6 h-6' />
                 </div>
 
 
             ) : (
-                <div className='fixed top-0 right-0 w-full h-full z-10 bg-gray-900/50' onClick={() => setMenuOpen(false)}>
+                <div className='max-sm:fixed max-sm:top-0 max-sm:right-0 max-sm:w-full max-sm:h-full max-sm:z-10 max-sm:bg-gray-900/50' onClick={() => setMenuOpen(false)}>
                     <ul className='flex flex-row gap-8 text-white mt-3
             max-sm:fixed max-sm:right-8 max-sm:z-50 max-sm:flex-col max-sm:bg-gray-600 max-sm:p-8'>
                         <li className='cursor-pointer hover:text-primary' >
