@@ -21,7 +21,7 @@ function Features() {
                 max-sm:w-[7rem] max-sm:h-[6rem]' />
             </div>
             <div className='uppercase gap-4 flex flex-col w-1/2 max-sm:w-full'>
-                <span className='font-bold text-orange-400 max-sm:mt-6'>Algunas características</span>
+                <span className='font-bold text-primary max-sm:mt-6'>Algunas características</span>
                 <div className='text-white text-5xl font-bold max-sm:text-3xl'>
                     <span className='stroke-text'>Por qué </span>
                     <span>escogernos?</span>

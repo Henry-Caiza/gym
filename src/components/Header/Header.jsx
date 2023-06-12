@@ -18,7 +18,7 @@ function Header() {
                 </div>
             ) : (<ul className='flex flex-row gap-8 text-white mt-3
             max-sm:fixed max-sm:right-8 max-sm:z-50 max-sm:flex-col max-sm:bg-gray-600 max-sm:p-8'>
-                <li className='cursor-pointer hover:text-orange-400' >
+                <li className='cursor-pointer hover:text-primary' >
                     <Link
                         activeClass='active'
                         to='home'
@@ -27,7 +27,7 @@ function Header() {
                         onClick={() => setMenuOpen(false)}
                     >Inicio</Link>
                 </li>
-                <li className='cursor-pointer hover:text-orange-400' >
+                <li className='cursor-pointer hover:text-primary' >
                     <Link
                         to='programs'
                         span={true}
@@ -36,7 +36,7 @@ function Header() {
                     >Programas
                     </Link>
                 </li>
-                <li className='cursor-pointer hover:text-orange-400' >
+                <li className='cursor-pointer hover:text-primary' >
                     <Link
                         to='features'
                         span={true}
@@ -45,7 +45,7 @@ function Header() {
                     >Sobre nosotros
                     </Link>
                 </li>
-                <li className='cursor-pointer hover:text-orange-400' >
+                <li className='cursor-pointer hover:text-primary' >
                     <Link
                         to='plans'
                         span={true}
@@ -54,7 +54,7 @@ function Header() {
                     >Plenes
                     </Link>
                 </li>
-                <li className='cursor-pointer hover:text-orange-400' >
+                <li className='cursor-pointer hover:text-primary' >
                     <Link
                         onClick={() => setMenuOpen(false)}
                         to='testimonials'

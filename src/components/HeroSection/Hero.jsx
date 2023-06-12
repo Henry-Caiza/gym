@@ -16,13 +16,13 @@ function Hero() {
             <div className="blur w-[22rem] h-[30rem] left-0 max-sm:w-[14rem]"></div>
             <div className="p-8 pt-6 w-3/4 flex flex-col gap-8 max-sm:w-full">
                 <Header />
-                <div className="mt-16 bg-slate-600 rounded-full w-fit py-5 px-4 uppercase text-white relative flex items-center justify-start 
+                <div className="mt-16 bg-secondary rounded-full w-fit py-5 px-4 uppercase text-white relative flex items-center justify-start 
                 max-sm:mt-0 max-sm:text-sm max-sm:self-center scale-[.8]">
                     <motion.div
                         initial={{ left: mobile ? '188px' : '228px' }}
                         whileInView={{ left: '8px' }}
                         transition={{ ...transition, type: 'tween' }}
-                        className="absolute bg-orange-400 w-20 h-4/5 left-2 rounded-full"></motion.div>
+                        className="absolute bg-primary w-20 h-4/5 left-2 rounded-full"></motion.div>
 
                     <span className="z-10">el mejor club fitness de la ciudad</span>
                 </div>
@@ -68,12 +68,12 @@ function Hero() {
                 </div>
                 <div className="flex gap-4 font-normal
                 max-sm:justify-center">
-                    <button className="btn bg-orange-400 w-32 text-white">Comenzar</button>
-                    <button className="btn bg-transparent w-36 border-2 border-orange-400 text-white">Aprender Más</button>
+                    <button className="btn bg-primary w-32 text-white">Comenzar</button>
+                    <button className="btn bg-transparent w-36 border-2 border-primary text-white">Aprender Más</button>
                 </div>
             </div>
 
-            <div className=" w-1/4 relative bg-orange-400 
+            <div className=" w-1/4 relative bg-primary 
             max-sm:w-full max-sm:bg-transparent max-sm:relative">
                 <button className="btn absolute right-12 top-8 bg-white text-black max-sm:right-4">Únete ahora</button>
 
@@ -81,7 +81,7 @@ function Hero() {
                     initial={{ right: '-1rem' }}
                     whileInView={{ right: '4rem' }}
                     transition={transition}
-                    className="flex flex-col gap-4 bg-gray-700 w-fit p-4 items-start rounded-lg absolute right-16 top-28
+                    className="flex flex-col gap-4 bg-secondary/90 w-fit p-4 items-start rounded-lg absolute right-16 top-28
                     max-sm:left-4 max-sm:top-8">
                     <img src={Heart} alt="" className="w-8" />
                     <span className="text-gray-400 max-sm:text-sm">Ritmo Cardíaco</span>
@@ -102,7 +102,7 @@ function Hero() {
                     initial={{ right: '37rem' }}
                     whileInView={{ right: '28rem' }}
                     transition={transition}
-                    className="flex gap-8 bg-gray-700 p-4 rounded-lg w-2/3 absolute top-[32rem] right-[30rem]
+                    className="flex gap-8 bg-secondary  p-4 rounded-lg w-2/3 absolute top-[32rem] right-[30rem]
                     max-sm:relative max-sm:top-20 max-sm:left-16">
                     <img src={Calories} alt="" className="w-12 max-sm:w-8" />
                     <div className=" flex flex-col justify-between">

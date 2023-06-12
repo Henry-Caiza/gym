@@ -13,7 +13,7 @@ function Programs() {
 
             <div className='gap-4 grid grid-cols-4 max-sm:flex max-sm:flex-col'>
                 {programsData.map((program) => (
-                    <div className='flex flex-col bg-slate-600 p-8 gap-4 text-white justify-between category cursor-pointer hover:bg-gradient-to-tr from-orange-400 via-orange-600 to-red-500 
+                    <div className='flex flex-col bg-slate-600 p-8 gap-4 text-white justify-between category cursor-pointer hover:bg-gradient-to-tr from-secondary  to-primary 
                     ' key={program.heading}>
                         {program.image}
                         <span className='text-base font-bold'>{program.heading}</span>

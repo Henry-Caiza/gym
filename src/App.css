@@ -35,7 +35,7 @@
 }
 
 .plans>:nth-child(2) {
-    background: linear-gradient(210.41deg, #ef4444 1.14%, #fb923c 100.75%);
+    background: linear-gradient(210.41deg, #6FAE4E 1.14%, #0C3F6C 100.75%);
     transform: scale(1.1);
 }
 
@@ -44,17 +44,17 @@
 }
 
 .plans>:nth-child(2)>button {
-    color: #fb923c;
+    color: #6FAE4E;
 }
 
 .plan>svg {
-    fill: #fb923c;
+    fill: #6FAE4E;
     width: 2rem;
     height: 2rem;
 }
 
 .blur {
-    background: #fb923cc3;
+    background: #70ae4ed0;
     position: absolute;
     border-radius: 50%;
     filter: blur(150px);

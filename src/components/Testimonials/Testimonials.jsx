@@ -15,7 +15,7 @@ function Testimonials() {
         <div className="flex flex-row gap-4 px-8 w-full mt-24
         max-sm:flex-col" id="testimonials">
             <div className="flex flex-col gap-8 uppercase text-white w-1/2 max-sm:w-full max-sm:gap-2">
-                <span className="font-bold text-orange-400 max-sm:mb-4">Testimonios</span>
+                <span className="font-bold text-via-green-500 max-sm:mb-4">Testimonios</span>
                 <span className="font-bold text-5xl stroke-text max-sm:text-3xl">Lo que dicen</span>
                 <span className="font-bold text-5xl max-sm:text-3xl">Sobre nosotros</span>
                 <motion.span
@@ -28,7 +28,7 @@ function Testimonials() {
                     {testimonialsData[selected].review}
                 </motion.span>
                 <span>
-                    <span className="text-orange-400">
+                    <span className="text-via-green-500">
                         {testimonialsData[selected].name}
                     </span> - {testimonialsData[selected].status}
                 </span>
@@ -38,13 +38,13 @@ function Testimonials() {
                     initial={{ opacity: 0, x: -100 }}
                     transition={{ ...transition, duration: 2 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    className="absolute  w-[17rem] h-[20rem] border-2 border-orange-400 bg-transparent right-36 top-[.9rem]
+                    className="absolute  w-[17rem] h-[20rem] border-2 border-primary bg-transparent right-36 top-[.9rem]
                     max-sm:relative max-sm:hidden"></motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ ...transition, duration: 2 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    className="absolute  w-[17rem] h-[19rem] top-16 right-28 bg-gradient-to-tr from-orange-400 via-orange-600 to-red-500
+                    className="absolute  w-[17rem] h-[19rem] top-16 right-28 bg-gradient-to-tr from-primary to-secondary
                     max-sm:relative max-sm:hidden"></motion.div>
                 <motion.img
                     key={selected}
